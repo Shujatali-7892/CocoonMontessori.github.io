@@ -7659,11 +7659,17 @@ abbr[title] {
 }
 
 /* ............................. butterfly ends here */
-.Vision-div{
-  box-shadow: 2px 7px 5px rgba(0,0,0,0.3),  0px -4px 10px rgba(255,255,255,0.3) ;
-  padding: 20px 10px;
-  border-radius: 40px;
 
+.Vision-div {
+  /* box-shadow: 2px 7px 5px rgba(0,0,0,0.3), 0px -4px 10px rgba(255,255,255,0.3); */
+  padding: 20px 10px;
+  background-image: url(../img/bg-shaps/bg-1.webp);
+  border-radius: 40px;
+  filter: drop-shadow(2px 4px 6px gray);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 80px 80px 10px 0px;
 }
 /* Pehla section ko hide karna */
 /* .mbutterfly {
